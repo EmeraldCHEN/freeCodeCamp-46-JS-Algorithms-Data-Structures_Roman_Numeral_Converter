@@ -12,6 +12,9 @@ function convertToRoman(num){
     }
     return convertedNum;
 }
+convertToRoman(9); // return "IX"
+convertToRoman(12); // return "XII"
+convertToRoman(44); // return "XLIV"
 
 
 
